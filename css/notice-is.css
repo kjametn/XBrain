@@ -1,0 +1,159 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('montserrat-medium-webfont.woff2') format('woff2'),
+         url('montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.screen{
+/*	width: 750px;
+	height: 1334px;*/
+	width: 375px;
+	height: 667px;
+	background-color: white;
+	margin: 0 auto;
+  height: 667px;
+  
+}
+body {
+	background-color: #222;
+}
+.top{
+  background-color: #67a076;
+  height: 65px;
+  -webkit-box-shadow: 0px 3px 25px -7px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 25px -7px rgba(0,0,0,0.3);
+  box-shadow: 0px 3px 25px -7px rgba(0,0,0,0.3);
+  width: 100%;
+  float: left;
+  margin-bottom: 45px;
+}
+.menu{
+  color: white;
+  float: left;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'montserratmedium';
+  line-height: 85px;
+  font-size: 20px;
+  margin-left: 120px;
+}
+.back{
+  float: left;
+}
+.back img{
+  width: 47.5px;
+  height: 47.5px;
+  background-size: cover;
+  margin-top: 17.5px;
+}
+.bm{
+  float: right
+}
+.bm img{
+  width: 51px;
+  height: 51px;
+  background-size: cover;
+  margin-top: 14px;
+}
+form {
+  display: block;
+  font-family: 'montserratmedium';
+}
+
+.form-fild {
+  display: block;
+  width: 90%;
+  height: 60px;
+  margin: 10px auto;
+  color: black;
+}
+.form-box{
+  margin-top: 30px;
+  margin-bottom: 72px;
+  font-family: 'montserratmedium';
+}
+
+.form-fild input {
+  position: relative;
+  z-index: 99;
+  border: none;
+  border-bottom: 1px solid #e0e0e0; 
+  display: block;
+  width: 100%;
+  height: 30px;
+  outline: none;
+  font-family: 'montserratmedium';
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background: transparent;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.note textarea {
+  position: relative;
+  z-index: 99;
+  border: none;
+  display: block;
+  width: 346px;
+  height: 237px;
+  outline: none;
+  font-family: 'montserratmedium';
+  font-size: 16px;
+  color: #444;
+  background: transparent;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 13px;
+} 
+
+
+input:-webkit-autofil,
+textarea:-webkit-autofill, 
+select:-webkit-autofill  {background-color: transparent;}
+
+
+
+
+
+
+form button {
+  display: block;
+  width: 156px;
+  height: 156px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #67a076;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s;
+  border-radius: 100px;
+  font-family: 'montserratmedium';
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+
+}
+
+form button:hover {
+-webkit-box-shadow: 0px 17px 35px 0px rgba(0,0,0,0.18);
+-moz-box-shadow: 0px 17px 35px 0px rgba(0,0,0,0.18);
+box-shadow: 0px 17px 35px 0px rgba(0,0,0,0.18);
+
+}

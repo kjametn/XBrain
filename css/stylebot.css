@@ -1,0 +1,114 @@
+
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  z-index: 1000;
+ 
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 0 auto;
+  margin-top: 120px;
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: auto;
+  width: 346px;
+  position: relative;
+  transition: all 5s ease-in-out;
+  padding-top: 30px;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.cancel{
+  width: 173px;
+  height: 64px;
+  background-color: #cccccc;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  float: left;
+  line-height: 60px;
+}
+
+.save{
+  border-radius: 0px;
+  margin-top: 0px;
+  width: 173px;
+  height: 64px;
+  background-color: #67a076;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  float: right;
+  line-height: 60px;
+}
+.save:hover{
+-webkit-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 0px 0px -200px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 0px -200px rgba(0,0,0,0.25);
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.thank{
+  font-family: 'komika_axisregular';
+  font-size: 30px;
+  color: #e49306;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.widthpic{
+  width: 170px;
+  height: 232px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.add{
+  font-size: 20px;
+  color: #67a076;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#theComboExample{
+  width: 316px;
+  margin-left: 15px;
+  outline: none;
+  height: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.theCombo{
+  outline: none;
+  font-size: 20px;
+}
+.theCombo2{
+  outline: none;
+  font-size: 20px;
+}
+
